@@ -45,7 +45,7 @@
     {
       "Name": "GRATIS",
       "TYPE": "premium",
-      "FLAG": "ca.png",
+      "FLAG": "br.png",
       "ServerIP": "veras.veraszkk.shop",
       "CheckUser": "http://179.96.107.151:8181/checkUser",
       "ServerPort": "22",

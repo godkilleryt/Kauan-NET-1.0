@@ -1,0 +1,324 @@
+{ 
+  "Version": "2", 
+  "ReleaseNotes": "🔉🔉️️ NOVA ATUALIZAÇÃO Kaua net 🔉🔉️\n\n⚙ Melhorias para melhor desempenho do servidor.  ⚙️ \n 🧲 Versão PRO 🧲 \n\n╭━━─━─≪️⭐≫─━─━━╮\n \n⚠️IMPORTANTE⚠️ \n• Mantenha o aplicativo sempre atualizado para internet FUNCIONAR! • \n\n╰━━─━─≪⭐️≫─━─━━╯", 
+  "UrlUpdate": "", 
+  "Sms":"", 
+  "EmailFeedback": "", 
+  "UrlContato": "", 
+  "UrlTermos": "",  
+  "CheckUser": "true", 
+  "Udp": [
+
+    {"Porta": "7100"},     
+    {"Porta": "7200"}, 
+    {"Porta": "7300"}, 
+    {"Porta": "7400"}, 
+    {"Porta": "7500"},
+    {"Porta": "7295"},
+    {"Porta": "7296"},
+    {"Porta": "7297"},
+    {"Porta": "7298"},
+    {"Porta": "7299"},
+    {"Porta": "7600"},
+    {"Porta": "7700"},
+    {"Porta": "7800"},
+    {"Porta": "7900"},
+    {"Porta": "5454"},
+                    ],  
+
+
+
+
+ "Servers": [ 
+     
+ {
+     "Name": "1️ 𝗦𝗘𝗥𝗩𝗜𝗗𝗢𝗥 KAUAN",
+     "TYPE": "PREMIUM",
+     "FLAG": "br.png",
+     "ServerIP": "windowsvps.ellitegame.xyz",
+     "CheckUser": "http://20.195.213.238:5454/checkUser",
+     "ServerPort": "22",
+     "SSLPort": "443",
+     "USER": "VIVO",
+     "PASS": "1234"
+     },
+     {
+     "Name": "2️ 𝗦𝗘𝗥𝗩𝗜𝗗𝗢𝗥 KAUAN",
+     "TYPE": "PREMIUM",
+     "FLAG": "br.png",
+     "ServerIP": "windowsvps.ellitegame.xyz",
+     "CheckUser": "http://140.238.182.23:5454/checkUser",
+     "ServerPort": "22",
+     "SSLPort": "443",
+     "USER": "VIVO",
+     "PASS": "1234"
+     },
+   ],
+
+
+
+
+
+
+"Networks": [
+
+      {
+     "Name": "ESCOLHA SUA OPERADORA",
+     "FLAG": "",
+     "Payload": "",
+     "SNI": "",
+     "TlsIP": "",
+     "ProxyIP": "",
+     "ProxyPort": "",
+     "Info": "Tlsws"
+      },
+	  
+	  {
+     "Name": "🟣 Vivo Alô front",
+"FLAG": "vivo",
+"Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "108.158.122.93",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "🔵 VIVO SP front",
+"FLAG": "vivo",
+"Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "13.227.126.42",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+	  
+      {
+      "Name": "FRONT VIVO front",
+     "FLAG": "vivo",
+     "Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+     "SNI": "d33j64xe270vd7.cloudfront.net",
+     "TlsIP": "13.227.126.60",
+     "ProxyIP": "13.227.126.60",
+     "ProxyPort": "80",
+     "Info": "Proxy"
+      },  
+	  
+      {
+      
+     "Name": "RECARGA VIVO FRONT",
+     "FLAG": "vivo",
+     "Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+     "SNI": "d33j64xe270vd7.cloudfront.net",
+     "TlsIP": "recarga.vivo.com.br",
+     "ProxyIP": "recarga.vivo.com.br",
+     "ProxyPort": "80",
+     "Info": "Proxy"
+      },  
+	  
+      {
+      
+     "Name": "FRONT CLARO FRONT",
+     "FLAG": "claro",
+     "Payload": "GET wss://d33j64xe270vd7.cloudfront.net/ HTTP/1.1[crlf]Host: descomplica.com.br[crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]", 
+     "SNI": "d33j64xe270vd7.cloudfront.net",
+     "TlsIP": "",
+     "ProxyIP": "descomplica.com.br",
+     "ProxyPort": "80",
+     "Info": "Proxy"
+      },	  
+	  
+	  {
+     "Name": "FRONT TIM FRONT",
+     "FLAG": "tim",
+     "Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]", 
+     "SNI": "d33j64xe270vd7.cloudfront.net",
+     "TlsIP": "pos.tim.com.br",
+     "ProxyIP": "pos.tim.com.br",
+     "ProxyPort": "80",
+     "Info": "Proxy"
+      },
+	{
+      "Name": "🔵🔵TIM FRONT🏧 01",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "pos.tim.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+   },
+    {
+      "Name": "🔵🔵TIM FRONT🏧 02",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "18.64.174.115",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+   },
+ {
+"Name": "🔵TIM FRONT🏧 03",
+"FLAG": "tim",
+"Payload": "GET / HTTP/1.1[crlf]Host: d33j64xe270vd7.cloudfront.net [crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf]Keep-Alive:[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "pos.tim.com.br",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+
+
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+
+
+
+
+
+           {
+           "Name": "OI 1",
+           "FLAG": "oi",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "www.hbogo.com.br",
+           "ProxyIP": "www.hbogo.com.br",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },   
+		   {
+           "Name": "OI 2",
+           "FLAG": "OI",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "sso.hotjar.com",
+           "ProxyIP": "sso.hotjar.com",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   
+		   
+           {
+           "Name": "VIVO 1",
+           "FLAG": "vivo",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "songbird.cardinalcommerce.com",
+           "ProxyIP": "songbird.cardinalcommerce.com",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+           {
+           "Name": "VIVO 2",
+           "FLAG": "vivo",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "smainfo.surveymonkey.com",
+           "ProxyIP": "smainfo.surveymonkey.com",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   {
+           "Name": "VIVO 3",
+           "FLAG": "vivo",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "workplaceservices.surveymonkey.com",
+           "ProxyIP": "workplaceservices.surveymonkey.com",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   {
+           "Name": "VIVO 4",
+           "FLAG": "vivo",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "itsupport.surveymonkey.com",
+           "ProxyIP": "itsupport.surveymonkey.com",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   
+		   
+		   {
+           "Name": "CLARO CLOUDFLARE",
+           "FLAG": "claro",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "mobilidade.cloud.caixa.gov.br",
+           "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   
+		   
+		   
+		   {
+           "Name": "SEM CREDITO 81 ON",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "workplaceservices.surveymonkey.com",
+           "ProxyIP": "workplaceservices.surveymonkey.com",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   {
+           "Name": "TIM 1",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "songbird.cardinalcommerce.com",
+           "ProxyIP": "songbird.cardinalcommerce.com",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   {
+           "Name": "TIM 2",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "pre-onboarding-p.c6bank.app",
+           "ProxyIP": "pre-onboarding-p.c6bank.app",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   {
+           "Name": "TIM 3",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "kickc6.com.br",
+           "ProxyIP": "kickc6.com.br",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+		   {
+           "Name": "TIM 4",
+           "FLAG": "tim",
+           "Payload": "GET / HTTP/1.1[crlf]Host: brazil1.tk[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+           "SNI": "brazil1.tk",
+           "TlsIP": "api.sandbox.c6bank.com.br",
+           "ProxyIP": "api.sandbox.c6bank.com.br",
+            "ProxyPort": "443",
+           "Info": " Proxy"
+           },
+
+
+
+
+
+
+]
+}

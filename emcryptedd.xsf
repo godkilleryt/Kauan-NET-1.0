@@ -4,8 +4,8 @@
   "UrlUpdate": "https://raw.githubusercontent.com/godkilleryt/Kauan-NET-1.0/main/emcryptedd.xsf", 
   "Sms":"", 
   "EmailFeedback": "", 
-  "UrlContato": "", 
-  "UrlTermos": "",  
+  "UrlContato": "https://t.me/kauanvpn", 
+  "UrlTermos": "https://raw.githubusercontent.com/godkilleryt/Kauan-NET-1.0/main/README.md",  
   "CheckUser": "true", 
   "Udp": [
 

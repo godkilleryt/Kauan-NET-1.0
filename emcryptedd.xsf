@@ -49,8 +49,8 @@
             "CheckUser": "http:/net.vpson.online:8080/checkUser",
             "ServerPort": "22",
             "SSLPort": "443",
-            "USER": "",
-            "PASS": ""
+            "USER": "6568",
+            "PASS": "8659"
         }
     ],
     "Networks": [

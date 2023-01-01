@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<HTML>
 <HEAD>
 
@@ -117,3 +118,6 @@ Flash Templates by <A HREF=http://www.flashzero.com class='hidden'>http://www.fl
 
 </BODY>
 </HTML>
+=======
+
+>>>>>>> d946bbf701466534af29ee401479009afe7d682d
